@@ -11,6 +11,21 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * Created by taylor on 2017-05-09.
+ *
+ * This was a lot of fun to hack away at in one day!
+ * There is pretty much no validation when checking whether the order
+ * is valid or not. Fields like financial_status could be used to verify
+ * if an order should count towards revenue or not.
+ *
+ * I also used total_price, though if you want revenue before taxes and shipping,
+ * then subtotal_price should be used. In this case it didn't matter since no orders
+ * had taxes or shipping.
+ *
+ * Thanks for the fun challenge!
+ */
+
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.keyboards) TextView keyboards;
     @BindView(R.id.revenue_cad) TextView revenueCad;
