@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shopify Demo</string>
+    <string name="revenue_cad">Total Revenue (CAD)</string>
+    <string name="revenue_usd">Total Revenue (USD)</string>
+    <string name="keyboards">Cotton Keyboards Sold</string>
+    <string name="holder_dollar_value">$0</string>
+    <string name="holder_value">0</string>
+    <string name="refresh">Refresh</string>
+</resources>
